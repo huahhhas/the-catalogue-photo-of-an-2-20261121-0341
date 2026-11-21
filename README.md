@@ -7,9 +7,10 @@
 A catalogue photograph of an impossible gadget: **THE ZERO-G MUG** — coffee
 that floats, so it can never spill.
 
-`main.py` (Python 3.13, stdlib + Pillow only, runs offline, no network)
-draws the shot and writes one 1024x1024 PNG to
-`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`):
+`main.py` (Python 3.13, pure standard library only — no Pillow, no
+third-party code, runs offline, no network) draws the shot with small
+raster helpers and a hand-written PNG encoder, and writes one 1024x1024
+PNG to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`):
 
 - a white ceramic mug on a clean light-grey studio background, soft
   contact shadow, coffee surface visible inside the rim
